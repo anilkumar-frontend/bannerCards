@@ -53,8 +53,8 @@ The app must have the following functionalities
   | description |  String   |
   |  className  |  String   |
 
-- The value of the key `id` should be used as a key to the `BannerCardItem` component.
-- The value of the key `className` should be used as a className for the HTML list item in the `BannerCardItem` component.
+- The value of the key `id` should be used as a key to the `BannerCard` component.
+- The value of the key `className` should be used as a className for the HTML list item in the `BannerCard` component.
 
 </details>
 
@@ -66,8 +66,7 @@ Use these files to complete the implementation:
 
 - `src/App.js`
 - `src/App.css`
-- `src/components/BannerCardItem/index.js`
-- `src/components/BannerCardItem/index.css`
+- `src/components/BannerCard/BannerCard.jsx`
 </details>
 
 ### Resources
@@ -93,8 +92,7 @@ Use these files to complete the implementation:
 
 > ### _Things to Keep in Mind_
 >
-> - All components you implement should go in the `src/components` directory.
+> - All components you implement should go in the `src/Components` directory.
 > - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+
 # bannerCards
